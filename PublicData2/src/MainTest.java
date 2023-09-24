@@ -1,9 +1,10 @@
+import com.controller.HospitalInfoController;
 
 public class MainTest {
 
 	public static void main(String[] args) {
-		System.out.println("Hello");
-
+		HospitalInfoController controller = new HospitalInfoController();
+		controller.inputData();
+		controller.printHospitalData();
 	}
-
 }
